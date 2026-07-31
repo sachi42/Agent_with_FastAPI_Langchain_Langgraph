@@ -72,6 +72,16 @@ curl -X POST "http://127.0.0.1:8000/chat" \
 
 Use /chat/stream if you want to see updates while the agent is working.
 
+### How to run this project -
+clone the project
+save the files
+run -
+uv add -r requirements.txt - for adding all the dependencies
+uvicorn app.main:app --reload - for running the project 
+Now, open path http://127.0.0.1:800/docs and call the respective endpoints
+
+
+
 ## Project structure
 
 - app/main.py: starts the FastAPI app

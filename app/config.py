@@ -28,7 +28,7 @@ class Settings(BaseSettings):
     AGENT_TOOL_BUDGET: int = 3
     
     # Explicitly add the OpenAI key so Pydantic knows it is expected
-    OPENAI_API_KEY: str = "sk-mock-key-for-testing-ingestion-only"
+    OPENAI_API_KEY: str = "sk-proj-test-key"
 
     # Modern Pydantic V2 Configuration Style
     model_config = ConfigDict(
